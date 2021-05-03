@@ -8,11 +8,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lightbox.min.css">
     <title>Welcome To EdgeLedger</title>
 </head>
 <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo">
                 <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
             </h1>
@@ -66,7 +67,7 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="./img/home/people.jpg" alt="">
+                        <img src="./images/home/people.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
@@ -92,20 +93,36 @@
             </header>
             <div class="row">
                 <div class="column">
-                    <img src="./img/cases/cases1.jpg" alt="">
-                    <img src="./img/cases/cases2.jpg" alt="">
+                    <a href="./images/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases1.jpg" alt="">
+                    </a>
+                    <a href="./images/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases2.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/cases/cases3.jpg" alt="">
-                    <img src="./img/cases/cases4.jpg" alt="">
+                    <a href="./images/cases/cases3.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases3.jpg" alt="">
+                    </a>
+                    <a href="./images/cases/cases4.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases4.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/cases/cases5.jpg" alt="">
-                    <img src="./img/cases/cases6.jpg" alt="">
+                    <a href="./images/cases/cases5.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases5.jpg" alt="">
+                    </a>
+                    <a href="./images/cases/cases6.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases6.jpg" alt="">
+                    </a>
                 </div>
                 <div class="column">
-                    <img src="./img/cases/cases7.jpg" alt="">
-                    <img src="./img/cases/cases8.jpg" alt="">
+                    <a href="./images/cases/cases7.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases7.jpg" alt="">
+                    </a>
+                    <a href="./images/cases/cases8.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, magni.">
+                        <img src="./images/cases/cases8.jpg" alt="">
+                    </a>
                 </div>
             </div>
         </section>
@@ -115,7 +132,7 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="./img/home/blog.jpg" alt="">
+                        <img src="./images/home/blog.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
@@ -141,17 +158,17 @@
             </header>
             <div class="flex-items">
                 <div>
-                    <img src="./img/team/person1.jpg" alt="">
+                    <img src="./images/team/person1.jpg" alt="">
                     <h4>John Doe</h4>
                     <p>President</p>
                 </div>
                 <div>
-                    <img src="./img/team/person2.jpg" alt="">
+                    <img src="./images/team/person2.jpg" alt="">
                     <h4>Jane Doe</h4>
                     <p>Vice President</p>
                 </div>
                 <div>
-                    <img src="./img/team/person3.jpg" alt="">
+                    <img src="./images/team/person3.jpg" alt="">
                     <h4>Steve Smith</h4>
                     <p>Marketing Head</p>
                 </div>
@@ -163,7 +180,7 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="./img/home/contact.jpg" alt="">
+                        <img src="./images/home/contact.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
@@ -199,5 +216,12 @@
         </div>
         <p>Copyright &copy; 2020 - EdgeLedger</p>
     </footer>
+    
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script src="./js/lightbox.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

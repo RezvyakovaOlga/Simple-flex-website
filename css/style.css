@@ -46,6 +46,11 @@ img {
     position: fixed;
     top: 0;
     padding: 0 30px;
+    transition: 0.5s;
+}
+
+.navbar.top {
+    background: transparent;
 }
 
 .navbar a {
@@ -68,7 +73,7 @@ img {
 
 /* Header */
 .hero {
-    background: url('../img/home/showcase.jpg') no-repeat center/cover;
+    background: url('../images/home/showcase.jpg') no-repeat center/cover;
     height: 100vh;
     position: relative;
     color: white;
@@ -109,7 +114,7 @@ img {
 }
 
 .hero.blog {
-    background: url('../img/home/blog.jpg') no-repeat center/cover;
+    background: url('../images/home/blog.jpg') no-repeat center/cover;
     height: 30vh;
 }
 
